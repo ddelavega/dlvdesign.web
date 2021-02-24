@@ -11305,9 +11305,8 @@ ul, li {
 }
 .overlay .overlay-content {
   position: relative;
-  top: 25%;
+  top: 100px;
   width: 100%;
-  margin-top: 30px;
 }
 .overlay .overlay {
   width: 100%;
@@ -11315,7 +11314,7 @@ ul, li {
 .overlay .closebtn {
   position: absolute;
   top: 10px;
-  right: 0;
+  right: 6px;
   width: 80px;
   height: 60px;
   padding: 10px;
