@@ -11199,14 +11199,6 @@ ul, li {
   padding: 0.5rem;
 }
 
-.small {
-  font-size: 0.8rem;
-}
-
-.ghost {
-  color: #666;
-}
-
 .profile-pic {
   text-align: center;
 }
@@ -11247,9 +11239,24 @@ ul, li {
   font-family: "Open Sans", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 300;
 }
+.footer .menu-footer li {
+  padding: 0.2rem;
+}
+.footer .menu-footer a {
+  color: #f1f1f1;
+}
+.footer .menu-footer a span {
+  font-weight: bold;
+  color: rgba(50, 184, 184, 0.4);
+  border-bottom: 1px solid transparent;
+}
+.footer .menu-footer a:hover span {
+  border-bottom: 1px solid #32b8b8;
+  color: #32b8b8;
+}
 .footer .copyright {
   align-self: center;
-  line-height: 60px;
+  line-height: 30px;
 }
 .footer .social {
   align-self: center;
@@ -11268,6 +11275,14 @@ ul, li {
 .footer p {
   padding: 0;
   margin: 0;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.ghost {
+  color: #666;
 }
 
 .btn-tag {

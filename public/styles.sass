@@ -432,10 +432,7 @@
       padding: .5rem
     // align-self: center
     // align-self: center
-.small
-  font-size: .8rem
-.ghost
-  color: #666
+
 .profile-pic
   text-align: center
   img
@@ -470,9 +467,22 @@
       font-size: 1.3rem
       font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
       font-weight: 300
+  .menu-footer
+    li
+      padding: .2rem 
+    a
+      color: #f1f1f1
+      span
+        font-weight: bold
+        color: rgba(#32b8b8, .4)
+        border-bottom: 1px solid transparent
+      &:hover
+        span
+          border-bottom: 1px solid #32b8b8
+          color: #32b8b8
   .copyright
     align-self: center
-    line-height: 60px
+    line-height: 30px
   .social
     align-self: center
     a
@@ -488,6 +498,10 @@
   p
     padding: 0
     margin: 0
+.small
+  font-size: .8rem
+.ghost
+  color: #666
 
 .btn-tag
   display: inline-block
