@@ -11199,6 +11199,14 @@ ul, li {
   padding: 0.5rem;
 }
 
+.small {
+  font-size: 0.8rem;
+}
+
+.ghost {
+  color: #666;
+}
+
 .profile-pic {
   text-align: center;
 }
