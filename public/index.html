@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <title>DLV+design | Diego de la Vega</title>
 </head>
 <body>
@@ -43,6 +45,7 @@
               <a class="nav-link dropdown-toggle" id="navbarDropdownServices" data-bs-toggle="dropdown" aria-expanded="false"><span>03</span> Servicios <i class="icon ico-chevron-down"></i>
               </a>
               <div id="drop-services-menu" class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownServices">
+                <span><a class="dropdown-item" href="#profile-services">Enfoque</a></span>
                 <span><a class="dropdown-item" href="#profile-strategy">Diseño Pymes</a></span>
                 <span><a class="dropdown-item" href="#profile-startups">Soluciones Startups</a></span>
                 <span><a class="dropdown-item" href="#profile-my-work">Mi trabajo</a></span>
@@ -69,10 +72,11 @@
     <div class="main-content" id="main">
       <div class="container-fluid container-xl profile-start" id="profile-start">
         <div class="row row-cols-1 row-cols-md-2">
-          <div class="col order-md-2 profile-pic p-2 p-md-0">
+          <!-- data-aos-anchor="#example-anchor" -->
+          <div class="col order-md-2 profile-pic p-2 p-md-0" data-aos="fade-down">
             <img class="img-fluid pic-gray" src="assets/images/profile/profile-front.jpg" alt="Profile image">
           </div>
-          <div class="col order-md-1 align-texts my-2 my-md-0 bg-number-01">
+          <div class="col order-md-1 align-texts my-2 my-md-0 bg-number-01" data-aos="fade-up">
             <h2>Front End Developer | <br> Web Designer</h2>
             <br>
             <p>
@@ -89,7 +93,7 @@
           </div>
         </div>
       </div>
-      <div class="bloque-brands px-2 py-4 text-center">
+      <div class="bloque-brands px-2 py-4 text-center" data-aos="fade-up">
         <h3>
           Puestos en los que me desempeñé:
           <br>
@@ -99,7 +103,7 @@
       </div>
       <div class="container-fluid container-xl profile-skills" id="profile-skills">
         <div class="row row-cols-1 row-cols-md-2">
-          <div class="col order-md-1 profile-pic p-2 p-md-0">
+          <div class="col order-md-1 profile-pic p-2 p-md-0" data-aos="fade-down">
             <img class="img-fluid pic-gray" src="assets/images/profile/lg-secuence-01.jpg" alt="Profile image">
             <div class="details py-3">
               <h2>Detalle</h2>
@@ -125,7 +129,7 @@
             <img class="img-fluid pic-gray d-none d-md-block d-lg-none my-md-3" src="assets/images/profile/lg-secuence-02.jpg" alt="Profile image">
             <img class="img-fluid pic-gray d-none d-md-block d-lg-none my-md-3" src="assets/images/profile/profile-working.jpg" alt="Profile image">
           </div>
-          <div class="col order-md-2 align-texts mt-2 mt-md-0 bg-number-02 skills-radios">
+          <div class="col order-md-2 align-texts mt-2 mt-md-0 bg-number-02 skills-radios" data-aos="fade-up">
             <h2>Skills</h2>
             <br>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
@@ -220,10 +224,10 @@
       </div>
       <div class="container-fluid container-xl profile-about-me" id="profile-about-me">
         <div class="row row-cols-1 row-cols-md-2">
-          <div class="col order-md-2 profile-pic p-2 p-md-0">
+          <div class="col order-md-2 profile-pic p-2 p-md-0" data-aos="fade-right">
             <img class="img-fluid pic-gray" src="assets/images/profile/profile-coding.jpg" alt="Profile image">
           </div>
-          <div class="col order-md-1 align-texts mt-2 mt-md-0 bg-number-02">
+          <div class="col order-md-1 align-texts mt-2 mt-md-0 bg-number-02" data-aos="fade-left">
             <h2>Acerca de mí</h2>
             <br>
             <p>
@@ -254,14 +258,16 @@
       </div>
       <div class="container-fluid bg-light">
         <div class="container-xl profile-services" id="profile-services">
-          <h2>
-            Servicios
-          </h2>
-          <p>
-            Trabajo con empresas, marcas y agencias de todos los tamaños en proyectos que cubren todo el espectro de diseño, incluyendo: diseño móvil, diseño web, diseño de accesibilidad, diseño receptivo, diseño de marketing, publicidad, diseño de marca y diseño de presentaciones.
-          </p>
+          <div data-aos="fade-down">
+            <h2>
+              Servicios
+            </h2>
+            <p>
+              Trabajo con empresas, marcas y agencias de todos los tamaños en proyectos que cubren todo el espectro de diseño, incluyendo: diseño móvil, diseño web, diseño de accesibilidad, diseño receptivo, diseño de marketing, publicidad, diseño de marca y diseño de presentaciones.
+            </p>
+          </div>
           <div class="row row-cols-1 row-cols-md-2 text-center">
-            <div class="col p-3 my-2">
+            <div class="col p-3 my-2" data-aos="fade-right">
               <img class="p-3" src="assets/images/profile/service-ux.svg" alt=""> <br>
               <h3>UX Design</h3>
               <p>
@@ -275,7 +281,7 @@
                 <strong class="btn-tag"><i class="icon ico-check"></i><span>Prototypes</span></strong>
               </p>
             </div>
-            <div class="col p-3 my-2">
+            <div class="col p-3 my-2" data-aos="fade-left">
               <img class="p-3" src="assets/images/profile/service-ui.svg" alt=""><br>
               <h3>UI Design</h3>
               <p>
@@ -290,7 +296,7 @@
                 <strong class="btn-tag"><i class="icon ico-check"></i><span>Responsive design</span></strong>
               </p>
             </div>
-            <div class="col p-3 my-2">
+            <div class="col p-3 my-2" data-aos="fade-right">
               <img class="p-3" src="assets/images/profile/service-brand.svg" alt=""><br>
               <h3>Branding</h3>
               <p>
@@ -304,7 +310,7 @@
                 <strong class="btn-tag"><i class="icon ico-check"></i><span>Social media assets</span></strong>
               </p>
             </div>
-            <div class="col p-3 my-2">
+            <div class="col p-3 my-2" data-aos="fade-left">
               <img class="p-3" src="assets/images/profile/service-seo.svg" alt=""><br>
               <h3>SEO</h3>
               <p>
@@ -323,10 +329,10 @@
       </div>
       <div class="container-fluid container-xl profile-strategy" id="profile-strategy">
         <div class="row row-cols-1 row-cols-md-2">
-          <div class="col order-md-1 profile-pic p-2 p-md-0">
+          <div class="col order-md-1 profile-pic p-2 p-md-0" data-aos="fade-left">
             <img class="img-fluid" src="assets/images/profile/plus.svg" alt="Profile image">
           </div>
-          <div class="col order-md-2 align-texts mt-2 mt-md-0 bg-number-03">
+          <div class="col order-md-2 align-texts mt-2 mt-md-0 bg-number-03" data-aos="fade-right">
             <h2>Diseño estratégico para pequeñas y medianas empresas</h2>
             <br>
             <p>
@@ -343,10 +349,10 @@
       </div>
       <div class="container-fluid container-xl profile-startups" id="profile-startups">
         <div class="row row-cols-1 row-cols-md-2">
-          <div class="col order-md-2 profile-pic p-2 p-md-0">
+          <div class="col order-md-2 profile-pic p-2 p-md-0" data-aos="fade-down">
             <img class="img-fluid" src="assets/images/profile/circle.svg" alt="Profile image">
           </div>
-          <div class="col order-md-1 align-texts mt-2 mt-md-0 bg-number-03">
+          <div class="col order-md-1 align-texts mt-2 mt-md-0 bg-number-03" data-aos="fade-up">
             <h2>Soluciones de diseño para startups</h2>
             <br>
             <p>
@@ -367,36 +373,38 @@
           </div>
         </div>
       </div>
-        <div class="container-fluid container-xl profile-my-work" id="profile-my-work">
-          <div class="row row-cols-1 row-cols-md-2">
-            <div class="col order-md-1 profile-pic p-2 p-md-0">
-              <img class="img-fluid" src="assets/images/profile/square.svg" alt="Profile image">
-            </div>
-            <div class="col order-md-2 align-texts mt-2 mt-md-0 bg-number-03">
-              <h2>Mi trabajo</h2>
-              <br>
-              <p>
-                Con un enfoque en el diseño centrado en las personas, creo hermosas experiencias y productos digitales con un enfoque en el usuario final. 
-              </p>
-              <p>
-                Echa un vistazo a algunos de mis proyectos de diseño recientes; los ejemplos deberían darte una buena indicación de mis habilidades de UX, UI y branding.
-              </p>
-              <p>
-                También tengo skills en SEO, lo que da la pauta de que tu proyecto no solo se va a ver bien, sino que también estará optimizado para posicionarse en los buscadores.
-              </p>
-              <p class="py-3">
-                <a href="#profile-skills" class="link-section"> <span><i class="icon ico-angle-right"></i></span> Mirá mis otros skills</a>
-              </p>
-            </div>
+      <div class="container-fluid container-xl profile-my-work" id="profile-my-work">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col order-md-1 profile-pic p-2 p-md-0" data-aos="fade-right">
+            <img class="img-fluid" src="assets/images/profile/square.svg" alt="Profile image">
+          </div>
+          <div class="col order-md-2 align-texts mt-2 mt-md-0 bg-number-03" data-aos="fade-left">
+            <h2>Mi trabajo</h2>
+            <br>
+            <p>
+              Con un enfoque en el diseño centrado en las personas, creo hermosas experiencias y productos digitales con un enfoque en el usuario final. 
+            </p>
+            <p>
+              Echa un vistazo a algunos de mis proyectos de diseño recientes; los ejemplos deberían darte una buena indicación de mis habilidades de UX, UI y branding.
+            </p>
+            <p>
+              También tengo skills en SEO, lo que da la pauta de que tu proyecto no solo se va a ver bien, sino que también estará optimizado para posicionarse en los buscadores.
+            </p>
+            <p class="py-3">
+              <a href="#profile-skills" class="link-section"> <span><i class="icon ico-angle-right"></i></span> Mirá mis otros skills</a>
+            </p>
           </div>
         </div>
-        <div class="container-fluid bg-pulse">
-          <div class="profile-portfolio" id="profile-portfolio">
-            <h2>Algunos de mis trabajos</h2>
+      </div>
+      <div class="container-fluid bg-pulse" id="profile-portfolio">
+        <div class="profile-portfolio py-5" id="profile-web-design">
+          <h2 class="pt-5">Algunos de mis trabajos</h2>
+          <br>
+          <div data-aos="fade-up">
+            <h2>Sitios Web | CMS | Landings | Demos</h2>
             <br>
-            <div id="profile-web-design">
-              <h2>Sitios Web | CMS | Landings | Demos</h2>
-              <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 px-lg-4">
+            <div class="container-lg">
+              <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 px-lg-4">
                 <div class="col">
                   <div class="card-work">
                     <img src="assets/images/webs/alliance-argentina.jpg" alt="Alliance Argentina Jiu Jitsu">
@@ -435,12 +443,6 @@
                 </div>
                 <div class="col">
                   <div class="card-work">
-                    <img src="assets/images/webs/came-servicios.jpg" alt="Came Servicios">
-                    <h3>Came Servicios</h3>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card-work">
                     <img src="assets/images/webs/ecocheras.jpg" alt="Ecocheras">
                     <h3>Ecocheras</h3>
                   </div>
@@ -471,15 +473,18 @@
                 </div>
                 <div class="col">
                   <div class="card-work">
-                    <img src="assets/images/webs/fujiwara.jpg" alt="FyM Aire Acondicionado">
+                    <img src="assets/images/webs/fm-aire-acondicionado.jpg" alt="FyM Aire Acondicionado">
                     <h3>FyM Aire Acondicionado</h3>
                   </div>
                 </div>
               </div>
             </div>
-            <div id="profile-graphic-design" class="py-4">
-              <h2>Gráfica | Logos</h2>
-              <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 px-lg-4">
+          </div>
+          <div id="profile-graphic-design" class="py-5">
+            <h2 class="pt-5">Gráfica | Logos</h2>
+            <br>
+            <div class="container-lg">
+              <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 px-lg-4">
                 <div class="col">
                   <div class="card-work">
                     <img src="assets/images/graphic/aladelta.jpg" alt="Aladelta Polefitness">
@@ -516,8 +521,12 @@
                     <h3>Jiu Jitsu Banner Alliance</h3>
                   </div>
                 </div>
-              </div>
-              <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 px-lg-4">
+                <div class="col">
+                  <div class="card-work">
+                    <img src="assets/images/graphic/cem-ancestralidade.jpg" alt="Acestralidade CEM Capoeira">
+                    <h3>Acestralidade CEM Capoeira</h3>
+                  </div>
+                </div>
                 <div class="col">
                   <div class="card-work">
                     <img src="assets/images/logos/associacao-cem-mulher.jpg" alt="Associação CEM Mulher">
@@ -550,9 +559,12 @@
                 </div>
               </div>
             </div>
-            <div id="profile-email-marketing" class="py-4">
-              <h2>Email Marketing</h2>
-              <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 px-lg-4">
+          </div>
+          <div id="profile-email-marketing" class="py-5">
+            <h2 class="pt-5">Email Marketing</h2>
+            <br>
+            <div class="container-lg">
+              <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 px-lg-4">
                 <div class="col">
                   <div class="card-work">
                     <img src="assets/images/email-marketing/email-mkt-01.jpg" alt="Latam Pass BBVA Francés">
@@ -629,12 +641,6 @@
                   <div class="card-work">
                     <img src="assets/images/email-marketing/email-mkt-13.jpg" alt="Reseñas Oleo | Instiucionles">
                     <h3>Reseñas Oleo | Instiucionles</h3>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card-work">
-                    <img src="assets/images/email-marketing/email-mkt-14.jpg" alt="Insignias Oleo | Institucionales">
-                    <h3>Insignias Oleo | Institucionales</h3>
                   </div>
                 </div>
                 <div class="col">
@@ -779,75 +785,76 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid bg-black">
-          <div class="container-xl profile-get-in-touch" id="profile-get-in-touch">
-            <div class="row row-cols-1 row-cols-md-2">
-              <div class="col order-md-2 profile-pic p-2 p-md-0">
-                <img class="img-fluid pic-gray" src="assets/images/profile/profile-coffe.jpg" alt="Profile image">
-              </div>
-              <div class="col order-md-1 align-texts mt-2 mt-md-0 bg-number-05">
-                <div class="distribution">
-                  <h2>Pongámonos en contacto</h2>
-                  <div>
-                    <p>
-                      👋 Hola - Vivo en Zona Norte, un poco al norte y fuera de C.A.B.A.
-                    </p>
-                    <p>
-                      Si tenés un proyecto en mente, charlémos! 
-                    </p>
-                    <p>
-                      Podemos compartir un café en persona o si te parece más fácil, 
-                      agendá una reunión por Zoom conmigo o lo hablámos por teléfono.
-                    </p>
-                  </div>
-                  <ul class="contacts">
-                    <li>
-                      <i class="icon ico-envelope"></i> Enviáme un <a href="mailto:diegodelavega08@gmail.com"><strong>Correo</strong></a>
-                    </li>
-                    <li>
-                      <i class="icon ico-mobile"></i> <a href="tel:1149724813"><strong>Llamáme</strong></a>
-                    </li>
-                    <li>
-                      <i class="icon ico-whatsapp"></i> Por <a href="https://wa.me/541149724813"><strong>Whatsapp</strong></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+      </div>
+      <div class="container-fluid bg-black">
+        <div class="container-xl profile-get-in-touch" id="profile-get-in-touch">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col order-md-2 profile-pic p-2 p-md-0">
+              <img class="img-fluid pic-gray" src="assets/images/profile/profile-coffe.jpg" alt="Profile image">
             </div>
-          </div>
-        </div>
-        <div class="footer">
-          <div class="container-fluid container-xl text-center">
-            <div class="row row-cols-1 row-cols-md-3">
-              <div class="col order-3 order-md-1">
-                <h3 class="dlv-logo px-0">
-                  <a class="index.html" href="#main">
-                    <strong>dlv+</strong><span>design</span>
-                  </a>
-                </h3>
-                <p class="copyright">
-                   © 2007-2021 DLV+design.  <br> Derechos reservados. <br>
-                  <span class="small ghost">
-                    Vers.1.5.30
-                  </span>
-                </p>
-              </div>
-              <div class="col order-2 order-md-3 social">
-                <a target="_blank" href="https://www.behance.net/diegodelavegabe"><i class="icon ico-behance"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/diegodelavegalinkedin/"><i class="ico icon-linkedin"></i><i class="icon ico-linkedin"></i></a>
-              </div>
-              <div class="col order-1 order-md-2">
-                <ul class="p-4 text-center text-md-left menu-footer">
-                  <li><a href="#profile-start"><span>01</span> inicio</a> </li>
-                  <li><a href="#profile-about-me"><span>02</span> perfil</a> </li>
-                  <li><a href="#profile-services"><span>03</span> servicios</a> </li>
-                  <li><a href="#profile-portfolio"><span>04</span> trabajos</a> </li>
-                  <li><a href="#profile-get-in-touch"><span>05</span> contacto</a> </li>
+            <div class="col order-md-1 align-texts mt-2 mt-md-0 bg-number-05">
+              <div class="distribution">
+                <h2>Pongamonos en contacto</h2>
+                <div>
+                  <p>
+                    👋 Hola - Vivo en Zona Norte, un poco al norte y fuera de C.A.B.A.
+                  </p>
+                  <p>
+                    Si tenés un proyecto en mente, charlémos! 
+                  </p>
+                  <p>
+                    Podemos compartir un café en persona o si te parece más fácil, 
+                    agendá una reunión por Zoom conmigo o lo hablámos por teléfono.
+                  </p>
+                </div>
+                <ul class="contacts">
+                  <li>
+                    <i class="icon ico-envelope"></i> Enviáme un <a href="mailto:diegodelavega08@gmail.com"><strong>Correo</strong></a>
+                  </li>
+                  <li>
+                    <i class="icon ico-mobile"></i> <a href="tel:1149724813"><strong>Llamáme</strong></a>
+                  </li>
+                  <li>
+                    <i class="icon ico-whatsapp"></i> Por <a href="https://wa.me/541149724813"><strong>Whatsapp</strong></a>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="footer">
+        <div class="container-fluid container-xl text-center">
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col order-3 order-md-1">
+              <h3 class="dlv-logo px-0">
+                <a class="index.html" href="#main">
+                  <strong>dlv+</strong><span>design</span>
+                </a>
+              </h3>
+              <p class="copyright">
+                  © 2007-2021 DLV+design.  <br> Derechos reservados. <br>
+                <span class="small ghost">
+                  Vers.1.5.30
+                </span>
+              </p>
+            </div>
+            <div class="col order-2 order-md-3 social">
+              <a target="_blank" href="https://www.behance.net/diegodelavegabe"><i class="icon ico-behance"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/diegodelavegalinkedin/"><i class="ico icon-linkedin"></i><i class="icon ico-linkedin"></i></a>
+            </div>
+            <div class="col order-1 order-md-2">
+              <ul class="p-4 text-center text-md-left menu-footer">
+                <li><a href="#profile-start"><span>01</span> inicio</a> </li>
+                <li><a href="#profile-about-me"><span>02</span> perfil</a> </li>
+                <li><a href="#profile-services"><span>03</span> servicios</a> </li>
+                <li><a href="#profile-portfolio"><span>04</span> trabajos</a> </li>
+                <li><a href="#profile-get-in-touch"><span>05</span> contacto</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div id="myNav" class="overlay">
@@ -906,10 +913,42 @@
       </ul>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  <script src="js/text-typing.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body, .wrapper').animate({
+            scrollTop: $(hash).offset().top
+          }, 600, function(){
+      
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="js/text-typing.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
 
