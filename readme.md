@@ -16,10 +16,6 @@ netlify
 
 https://dlvdesign.netlify.app/
 
-surge
-
-http://dlvdesign.surge.sh/
-
 github pages
 
 https://ddelavega.github.io/dlvdesign.web/
