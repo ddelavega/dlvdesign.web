@@ -8,4 +8,10 @@
 ### Responsive
 ### Firebase Hosting
 
+firebase
+
 https://dlvdesign.web.app
+
+github pages
+
+https://ddelavega.github.io/dlvdesign.web/
