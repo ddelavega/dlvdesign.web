@@ -47,18 +47,12 @@ window.onload = function () {
             new TxtRotate(elements[i], JSON.parse(toRotate), period);
         }
     }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 3px solid #f1f1f1; color: #f1f1f1; }";
-    document.body.appendChild(css);
+
 };
-/* Open when someone clicks on the span element */
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
 }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
