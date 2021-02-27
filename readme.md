@@ -12,6 +12,10 @@ firebase
 
 https://dlvdesign.web.app
 
+netlify
+
+https://dlvdesign.netlify.app/
+
 github pages
 
 https://ddelavega.github.io/dlvdesign.web/
