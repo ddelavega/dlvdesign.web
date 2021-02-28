@@ -40,6 +40,8 @@ git commit -am "make it better"
 
 git push heroku master
 
+https://devcenter.heroku.com/categories/heroku-architecture
+
 ## Surge
 
 cd docs
