@@ -39,3 +39,15 @@ set git remote heroku to https://git.heroku.com/dlvdesign-01360.git
 git commit -am "make it better"
 
 git push heroku master
+
+## Surge
+
+cd docs
+surge
+ domain: dlvdesign.surge.sh
+    Success! - Published to dlvdesign.surge.sh
+
+remove
+surge teardown dlvdesign.surge.sh
+
+   Success - dlvdesign.surge.sh has been removed.
