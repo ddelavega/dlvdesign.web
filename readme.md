@@ -33,3 +33,9 @@ https://dlvdesign-01360.herokuapp.com/ | https://git.heroku.com/dlvdesign-01360.
 git remote add heroku https://git.heroku.com/dlvdesign-01360.git
 error: remote heroku already exists.
 
+heroku git:remote -a dlvdesign-01360
+set git remote heroku to https://git.heroku.com/dlvdesign-01360.git
+
+git commit -am "make it better"
+
+git push heroku master
