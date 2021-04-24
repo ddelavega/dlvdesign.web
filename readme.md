@@ -12,6 +12,10 @@ firebase
 
 https://dlvdesign.web.app
 
+vercel
+
+https://dlvdesign.vercel.app/
+
 netlify
 
 https://dlvdesign.netlify.app/
